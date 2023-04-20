@@ -36,7 +36,7 @@ app.get("/api/fruits", (req, res) => {
 //todo -> make post request of having 'x' route name .
 
 //todo -> (conditional) for more transparency if you really want to reflect your content in form jst change the routes of <form> tag in html file to '/api/formresponse' and duriing GET request send that html to '/api/formresponse' route .
-app.get("/api/formresponse", (req, res) => {
+app.get("/api/renderform", (req, res) => {
   res.sendFile(path.join(__dirname, "./rest-api-3.html"));
 });
 
