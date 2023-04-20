@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 app.post("/api/response", (req, res) => {
   // let title = req
   res.send("done");
-  console.log(`${req.body.demo}`);
+  console.log(`${req.body.name}`);
   console.log(`${req.body.email}`);
 });
 //todo -> at very fist it will render html file
